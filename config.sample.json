@@ -1,0 +1,21 @@
+{
+    "defaults": {
+        "CQL_SINGLE": "label = \"offline-copy\"",
+        "CQL_TREE": "label = \"offline-copy-tree\"",
+        "OUTPUT_DIR": "./output",
+        "RETENTION_DAYS": 2,
+        "CONCURRENCY": 20
+    },
+    "configs": [
+        {
+            "BASE_URL": "https://instance1.example.com/",
+            "AUTH_HEADER": "Bearer aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1kUXc0dzlXZ1hjUQ==",
+            "OUTPUT_DIR": "./output/instance1"
+        },
+        {
+            "BASE_URL": "https://instance2.example.com/",
+            "AUTH_HEADER": "Bearer aHR0cHM6Ly93d3cueW91dHViZS5jb20vd2F0Y2g/dj1kUXc0dzlXZ1hjUQ==",
+            "OUTPUT_DIR": "./output/instance2"
+        }
+    ]
+}
