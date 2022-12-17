@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import fetch from 'node-fetch'
 import puppeteer from "puppeteer"
 import { URL, URLSearchParams } from "url"
