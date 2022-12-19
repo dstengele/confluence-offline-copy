@@ -34,3 +34,8 @@ If you don't want to have the password (temporarily) in the script, remove the
 `-User` and `-Password` parameters and switch the task to `Run whether user is
 logged in or not` via `taskschd.msc` afterwards. This prevents the Job from
 popping up a console window with the log output.
+
+## Nix
+```shell
+nix run github:dstengele/confluence-offline-copy
+```
